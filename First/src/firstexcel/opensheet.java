@@ -24,7 +24,6 @@ public class opensheet {
 		driver.get("http://172.232.75.138/HR-Management/");
 		driver.manage().window().maximize();
 		driver.close();
-		driver.quit();
 		
 		
 
