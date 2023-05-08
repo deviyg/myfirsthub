@@ -23,6 +23,9 @@ public class opensheet {
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("http://172.232.75.138/HR-Management/");
 		driver.manage().window().maximize();
+		driver.close();
+		driver.quit();
+		
 		
 
 	}
